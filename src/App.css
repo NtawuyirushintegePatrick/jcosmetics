@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+.Header{
+  background-color: #61dafb;
+  height: 50px;
+  display: flex;
+  
+}
+.submenu{
+  background-color: aliceblue;
+  border: solid 1 black;
+  height: 50px;
+  width: 50%;
+}
+.profile-menu{
+  background-color: aquamarine;
+  border: solid 1 black;
+  height: 50px;
+  width: 50%;
+}
+.Header-two{
+  background-color: red;
+  height: 60px;
+}
+.categorie{
+  background-color: aquamarine;
+  height: 40px;
+}
+.welcome-photo{
+  background-color: #5f747a;
+  display: flex;
+  height: 20rem;
+}
+.welcome{
+  background-color: black;
+  width: 30%;
+}
+.photo{
+  background-color: blueviolet;
+  width: 70%;
+}
+.categories{
+  background-color: rgb(6, 48, 34);
+  height: 40px;
+  padding: 30px;
+}
+.cat-cat-see-all{
+  background-color: rgb(110, 106, 106);
+}
+.categories-with-photos{
+  background-color: blueviolet;
+  
+}
