@@ -48,11 +48,24 @@
   height: 50px;
   width: 50%;
 }
+.submenu-list a{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 40px 30px 10px 20px ;
+}
 .profile-menu{
   background-color: aquamarine;
   border: solid 1 black;
   height: 50px;
   width: 50%;
+}
+.profile-menu a{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-family:'Times New Roman', Times, serif;
+  position: relative;
+  padding-right: 20px;
 }
 .Header-two{
   background-color: red;
@@ -77,7 +90,7 @@
 }
 .categories{
   background-color: rgb(6, 48, 34);
-  height: 40px;
+  height: 600px;
   padding: 30px;
 }
 .cat-cat-see-all{
@@ -86,4 +99,58 @@
 .categories-with-photos{
   background-color: blueviolet;
   
+}
+.products{
+  background-color: red;
+  height: 600px;
+}
+.pro-see-all{
+  background-color: white;
+  height: 60px;
+  display: flex;
+  
+}
+.search-product{
+  background-color: green;
+  height: 60px;
+  width: 50%;
+}
+.pro{
+  background-color: greenyellow;
+  height: 60px;
+  width: 25%;
+}
+.see-all{
+  background-color: aqua;
+  height: 60px;
+  width: 25%;
+}
+.footer{
+  height: 250px;
+  display: flex;
+}
+.stay-connected{
+  background-color: aquamarine;
+  height: 250px;
+  width: 50%;
+}
+.contact-us{
+  background-color: rgb(42, 151, 78);
+  width: 50%;
+  height: 250px
+}
+.footer-privacy-managment{
+  background-color: rebeccapurple;
+  height: 40px;
+  display: flex;
+}
+.privacy{
+  background-color: white;
+  height: 40px;
+  width: 50%;
+}
+.managment{
+  background-color: rgb(117, 59, 59);
+  height: 40px;
+  width: 50%;
 }
