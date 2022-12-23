@@ -42,6 +42,48 @@
   display: flex;
   
 }
+.logo{
+  background-color: white;
+  height: 60px;
+  width: 25%;
+}
+.logo p{
+  color: rgb(255, 20, 147);
+  font-size:larger;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.search-landingPage{
+  background-color: greenyellow;
+  height: 60px;
+  width: 50%;
+}
+.search-landingPage input{
+  margin-top: 10px;
+  /* align-items: center; */
+  height: 40px;
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: double;
+
+}
+.cart-field{
+  background-color: black;
+  display: flex;
+  height: 60px;
+  width:25%
+  
+}
+.cart-shape{
+  background-color: white;
+  width: 50%;
+}
+.cart-amount{
+  background-color: #61dafb;
+  width: 50%;
+  padding: 4px;
+}
 .submenu{
   background-color: aliceblue;
   border: solid 1 black;
@@ -70,6 +112,7 @@
 .Header-two{
   background-color: red;
   height: 60px;
+  display: flex;
 }
 .categorie{
   background-color: aquamarine;

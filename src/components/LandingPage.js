@@ -35,7 +35,21 @@ const LandingPage = () => {
           </a>
         </div>
       </div>
-      <div className="Header-two">fghghf</div>
+      <div className="Header-two">
+        <div className="logo">
+          <p>JCOSMETICS</p>
+        </div>
+        <div className="search-landingPage">
+          <input type ="text" placeholder="Search any Product"/>
+        </div>
+        <div className="cart-field">
+          <div className="cart-shape">Cart logo</div>
+          <div className="cart-amount">
+            <h>Cart</h><br/>
+            <p>Total: <b>$0:00</b></p>
+          </div>
+        </div>
+      </div>
       <div className="categorie">dfvfgfgd</div>
       <div className="welcome-photo">
         <div className="welcome">fbfbfbfbfbf</div>
