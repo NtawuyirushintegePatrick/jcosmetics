@@ -10,7 +10,7 @@ const LandingPage = () => {
               href="#"
               class="text-blue-600 visited:text-purple-600 no-underline"
             >
-              Daily Deal
+              Daily Deals
             </a>
             <a href="#" class="text-blue-600 visited:text-purple-600">
               Sell
@@ -50,7 +50,15 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="categorie">dfvfgfgd</div>
+      <div className="categorie">
+        <div className="cat">Categories</div>
+        <div className="all-categories">
+        <div className="catt">Categorie 1</div>
+        <div className="catt">Categorie 2</div>
+        <div className="catt">Categorie 3</div>
+        <div className="catt">Categorie 4</div>
+        </div>
+      </div>
       <div className="welcome-photo">
         <div className="welcome">fbfbfbfbfbf</div>
         <div className="photo">fgfgbfgbhfgbf</div>
