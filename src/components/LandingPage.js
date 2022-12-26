@@ -40,28 +40,58 @@ const LandingPage = () => {
           <p>JCOSMETICS</p>
         </div>
         <div className="search-landingPage">
-          <input type ="text" placeholder="Search any Product"/>
+          <input type="text" placeholder="Search any Product" />
         </div>
         <div className="cart-field">
           <div className="cart-shape">Cart logo</div>
           <div className="cart-amount">
-            <h>Cart</h><br/>
-            <p>Total: <b>$0:00</b></p>
+            <h>Cart</h>
+            <br />
+            <p>
+              Total: <b>$0:00</b>
+            </p>
           </div>
         </div>
       </div>
       <div className="categorie">
-        <div className="cat">Categories</div>
+        <div className="cat">
+          <a href="#">All Categories</a>
+        </div>
         <div className="all-categories">
-        <div className="catt">Categorie 1</div>
-        <div className="catt">Categorie 2</div>
-        <div className="catt">Categorie 3</div>
-        <div className="catt">Categorie 4</div>
+          <div className="catt">
+            <a href="#">Oral Care</a>
+          </div>
+          <div className="catt">
+            <a href="#">Skin Care</a>
+          </div>
+          <div className="catt">
+            <a href="#">Sun Care</a>
+          </div>
+          <div className="catt">
+            <a href="#">Hair Care</a>
+          </div>
+          <div className="catt">
+            <a href="#">Decorative Cosmetics</a>
+          </div>
+          <div className="catt">
+            <a href="#">Body Care</a>
+          </div>
+          <div className="catt">
+            <a href="#">Perfumes</a>
+          </div>
         </div>
       </div>
       <div className="welcome-photo">
-        <div className="welcome">fbfbfbfbfbf</div>
-        <div className="photo">fgfgbfgbhfgbf</div>
+        <div className="welcome">
+          <div className="big-rectangle">
+            <div className="small-rectangle">
+              <p1>Shop with us <br/><br/>from <br/> <br/> Monday to Monday<br/><br/><p2>24/24</p2></p1>
+            </div>
+          </div>
+        </div>
+        <div className="photo">
+         
+        </div>
       </div>
       <div className="categories">
         <div className="cat-cat-see-all">
