@@ -115,13 +115,42 @@ const LandingPage = () => {
             <button>see all</button>
           </div>
         </div>
-        <div className="categories-with-photos">sdfjdfjbd</div>
+        <div className="categories-with-photos">
+          <div className="categories-details-card">
+            <div className="categorie-image">Image</div>
+            <div className="categorie-name">name</div>
+          </div>
+          <div className="categories-details-card">
+            <div className="categorie-image">Image</div>
+            <div className="categorie-name">name</div>
+          </div>
+          <div className="categories-details-card">
+            <div className="categorie-image">Image</div>
+            <div className="categorie-name">name</div>
+          </div>
+          <div className="categories-details-card">
+            <div className="categorie-image">Image</div>
+            <div className="categorie-name">name</div>
+          </div>
+          <div className="categories-details-card">
+            <div className="categorie-image">Image</div>
+            <div className="categorie-name">name</div>
+          </div>
+        </div>
       </div>
       <div className="products">
         <div className="pro-see-all">
-          <div className="pro">dfdd</div>
-          <div className="search-product">fgdfg</div>
-          <div className="see-all">fdgfg</div>
+          <div className="pro">Products</div>
+          <div className="search-product">
+            <input type="text" placeholder="Search a Product you are interested to buy" />
+          </div>
+          <div className="see-all">
+            <button> See all</button>
+          </div>
+        </div>
+        <div className="products-details-card">
+          <div className="product-image"></div>
+          <div className="product-info"></div>
         </div>
       </div>
       <div className="footer">

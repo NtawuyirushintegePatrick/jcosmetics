@@ -187,7 +187,7 @@
 }
 .categories{
   background-color: rgb(6, 48, 34);
-  height: 600px;
+  height: 350px;
   padding: 20px;
 }
 .categories .cat-cat-see-all .cat{
@@ -216,7 +216,10 @@
 }
 .categories-with-photos{
   background-color: blueviolet;
-  height: 540px;
+  height: 270px;
+  display: flex;
+  border-radius: 10px;
+  border: solid #E57272 0.25;
   
 }
 .categorie .all-categories .catt a{
@@ -227,6 +230,18 @@
 }
 .categorie .cat a{
   text-decoration: none;  
+}
+.categories-details-card{
+  background-color: white;
+  height: 200px ;
+  width: 200px;
+  margin: 30px;
+}
+.products .pro-see-all .search-product input{
+  height: 40px;
+  width: 600px;
+  margin: 6px;
+  padding-left: 30px;
 }
 .products{
   background-color: red; 
