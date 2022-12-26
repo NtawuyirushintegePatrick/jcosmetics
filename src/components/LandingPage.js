@@ -148,9 +148,28 @@ const LandingPage = () => {
             <button> See all</button>
           </div>
         </div>
+        <div className="product-card">
         <div className="products-details-card">
-          <div className="product-image"></div>
-          <div className="product-info"></div>
+          <div className="product-image">sdjifhdj</div>
+          <div className="product-info">cdvdvdv</div>
+        </div>
+        <div className="products-details-card">
+          <div className="product-image">sdjifhdj</div>
+          <div className="product-info">cdvdvdv</div>
+        </div>
+        <div className="products-details-card">
+          <div className="product-image">sdjifhdj</div>
+          <div className="product-info">cdvdvdv</div>
+        </div>
+        <div className="products-details-card">
+          <div className="product-image">sdjifhdj</div>
+          <div className="product-info">cdvdvdv</div>
+        </div>
+        <div className="products-details-card">
+          <div className="product-image">sdjifhdj</div>
+          <div className="product-info">cdvdvdv</div>
+        </div>
+
         </div>
       </div>
       <div className="footer">

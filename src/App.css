@@ -218,7 +218,7 @@
   background-color: blueviolet;
   height: 270px;
   display: flex;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: solid #E57272 0.25;
   
 }
@@ -231,6 +231,13 @@
 .categorie .cat a{
   text-decoration: none;  
 }
+.product-card{
+  background-color: #61dafb;
+  height: 470px;
+  display: flex;
+  padding: 20px;
+  margin: 5px;
+}
 .categories-details-card{
   background-color: white;
   height: 200px ;
@@ -242,6 +249,8 @@
   width: 600px;
   margin: 6px;
   padding-left: 30px;
+  border-radius: 10px;
+  border: none;
 }
 .products{
   background-color: red; 
@@ -251,7 +260,19 @@
   background-color: white;
   height: 60px;
   display: flex;
-  
+  margin: 0px 5px 0px 5px;
+}
+.products-details-card{
+  background-color: white;
+  height: 200px ;
+  width: 200px;
+  margin: 30px;
+}
+.product-image{
+
+}
+.product-info{
+
 }
 .search-product{
   background-color: green;
