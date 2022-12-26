@@ -169,8 +169,11 @@
   background-color: blueviolet;
   width: 75%;
   background-image: url("../src/images/photo.jpg");
-  background-repeat: no-repeat, repeat;
-  object-fit:cover;
+  background-repeat: no-repeat;
+  /* height: -500px; */
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 .categories{
   background-color: rgb(6, 48, 34);
