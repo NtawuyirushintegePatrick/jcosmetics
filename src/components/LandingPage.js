@@ -169,6 +169,10 @@ const LandingPage = () => {
           <div className="product-image">sdjifhdj</div>
           <div className="product-info">cdvdvdv</div>
         </div>
+        <div className="products-details-card">
+          <div className="product-image">sdjifhdj</div>
+          <div className="product-info">cdvdvdv</div>
+        </div>
 
         </div>
       </div>
