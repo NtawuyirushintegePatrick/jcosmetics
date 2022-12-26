@@ -188,17 +188,35 @@
 .categories{
   background-color: rgb(6, 48, 34);
   height: 600px;
-  padding: 30px;
+  padding: 20px;
 }
 .categories .cat-cat-see-all .cat{
-
+  background-color: green;
+  width: 50%
 }
+.categories .cat-cat-see-all .cat h{
+  color: white;
+}
+.categories .cat-cat-see-all .cat-see-all{
+ background-color: yellow;
+ width: 50%;
+}
+.categories .cat-cat-see-all .cat-see-all button{
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 12px;
+ }
+ 
 .cat-cat-see-all{
   background-color: rgb(110, 106, 106);
   height: 60px;
+  display: flex;
 }
 .categories-with-photos{
   background-color: blueviolet;
+  height: 540px;
   
 }
 .categorie .all-categories .catt a{

@@ -108,8 +108,12 @@ const LandingPage = () => {
       </div>
       <div className="categories">
         <div className="cat-cat-see-all">
-          <div className="cat">effvf</div>
-          <div className="cat-see-all">effvf</div>
+          <div className="cat">
+            <h>Categories</h>
+          </div>
+          <div className="cat-see-all">
+            <button>see all</button>
+          </div>
         </div>
         <div className="categories-with-photos">sdfjdfjbd</div>
       </div>
