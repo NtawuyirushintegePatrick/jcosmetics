@@ -90,7 +90,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="photo">
-         lbnfbnfnlbfgbmgklm
+         <p>We are here to serve you all about <br/><br/><p2>Cosmetics</p2> <br/><br/>Go with us</p>
         </div>
       </div>
       <div className="categories">

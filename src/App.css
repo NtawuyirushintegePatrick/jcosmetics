@@ -175,6 +175,10 @@
   background-size: cover;
   position: relative;
 }
+.welcome-photo .photo p{
+  font-size: xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .categories{
   background-color: rgb(6, 48, 34);
   height: 600px;
