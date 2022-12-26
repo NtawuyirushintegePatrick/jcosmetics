@@ -161,7 +161,7 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .small-rectangle p1 p2{
- font-size: larger;
+ font-size: 80px;
  font-weight: 900;
 
 }
@@ -176,16 +176,26 @@
   position: relative;
 }
 .welcome-photo .photo p{
-  font-size: xx-large;
+  font-size: 30px;
+  margin-right: 500px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.welcome-photo .photo p3{
+  color: #E57272;
+  font-size: 100px;
+  margin-left: 150px;
 }
 .categories{
   background-color: rgb(6, 48, 34);
   height: 600px;
   padding: 30px;
 }
+.categories .cat-cat-see-all .cat{
+
+}
 .cat-cat-see-all{
   background-color: rgb(110, 106, 106);
+  height: 60px;
 }
 .categories-with-photos{
   background-color: blueviolet;
@@ -201,7 +211,7 @@
   text-decoration: none;  
 }
 .products{
-  background-color: red;
+  background-color: red; 
   height: 600px;
 }
 .pro-see-all{

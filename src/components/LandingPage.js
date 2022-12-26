@@ -85,12 +85,25 @@ const LandingPage = () => {
         <div className="welcome">
           <div className="big-rectangle">
             <div className="small-rectangle">
-              <p1>Shop with us <br/><br/>from <br/> <br/> Monday to Monday<br/><br/><p2>24/24</p2></p1>
+              <p1>
+                Shop with us <br />
+                <br />
+                from <br /> <br /> Monday to Monday
+                <br />
+                <br />
+                <p2>24/24</p2>
+              </p1>
             </div>
           </div>
         </div>
         <div className="photo">
-         <p>We are here to serve you all about <br/><br/><p2>Cosmetics</p2> <br/><br/>Go with us</p>
+          <p>
+            We are here to serve you all about <br />
+            <br />
+            <p3>Cosmetics</p3> <br />
+            <br />
+            Go with us
+          </p>
         </div>
       </div>
       <div className="categories">
