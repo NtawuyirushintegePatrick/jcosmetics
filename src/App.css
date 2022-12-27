@@ -223,6 +223,13 @@
   border: solid #E57272 0.25;
   
 }
+/* @media (max-width :500px) {
+  
+ .Header{
+  background-color: yellow;
+ }
+  
+} */
 .categorie .all-categories .catt a{
   text-decoration: none;
   text-align: justify;
