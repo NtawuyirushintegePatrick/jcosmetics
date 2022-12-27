@@ -1,3 +1,4 @@
+import MyImage from '../images/photo.jpg';
 import React from "react";
 
 const LandingPage = () => {
@@ -117,7 +118,9 @@ const LandingPage = () => {
         </div>
         <div className="categories-with-photos">
           <div className="categories-details-card">
-            <div className="categorie-image">Image</div>
+            <div className="categorie-image">
+              <img src={MyImage} alt="hair"/>
+            </div>
             <div className="categorie-name">name</div>
           </div>
           <div className="categories-details-card">
