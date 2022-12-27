@@ -142,47 +142,70 @@ const LandingPage = () => {
         <div className="pro-see-all">
           <div className="pro">Products</div>
           <div className="search-product">
-            <input type="text" placeholder="Search a Product you are interested to buy" />
+            <input
+              type="text"
+              placeholder="Search a Product you are interested to buy"
+            />
           </div>
           <div className="see-all">
             <button> See all</button>
           </div>
         </div>
         <div className="product-card">
-        <div className="products-details-card">
-          <div className="product-image">sdjifhdj</div>
-          <div className="product-info">cdvdvdv</div>
-        </div>
-        <div className="products-details-card">
-          <div className="product-image">sdjifhdj</div>
-          <div className="product-info">cdvdvdv</div>
-        </div>
-        <div className="products-details-card">
-          <div className="product-image">sdjifhdj</div>
-          <div className="product-info">cdvdvdv</div>
-        </div>
-        <div className="products-details-card">
-          <div className="product-image">sdjifhdj</div>
-          <div className="product-info">cdvdvdv</div>
-        </div>
-        <div className="products-details-card">
-          <div className="product-image">sdjifhdj</div>
-          <div className="product-info">cdvdvdv</div>
-        </div>
-        <div className="products-details-card">
-          <div className="product-image">sdjifhdj</div>
-          <div className="product-info">cdvdvdv</div>
-        </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdxvdvdv</div>
+          </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
 
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
+          <div className="products-details-card">
+            <div className="product-image">sdjifhdj</div>
+            <div className="product-info">cdvdvdv</div>
+          </div>
         </div>
       </div>
       <div className="footer">
-        <div className="stay-connected">fdfdf</div>
-        <div className="contact-us">dfdds</div>
+        <div className="stay-connected">
+          <h4>Stay informed</h4>
+          <h5>Sign for new updates</h5>
+          <input type="text" placeholder="Email address"/><br/>
+          <button>Subscribe</button>
+          <h6>Stay connected</h6>
+        </div>
+        <div className="contact-us">
+          <h4>Contact us</h4>
+          <p>Jcosmetics<br/>The personal care center<br/><br/>
+          Tel : +250786562343<br/>
+          +250786767555
+          </p>
+        </div>
       </div>
       <div className="footer-privacy-managment">
-        <div className="privacy">fdfdf</div>
-        <div className="managment">dfdds</div>
+        <div className="privacy">Copylight Jcosmetics  Policy&Privacy</div>
+        <div className="managment">Design and Content Management System by Jcosmetics</div>
       </div>
     </>
   );

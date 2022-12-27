@@ -207,6 +207,7 @@
   width: 100px;
   border: none;
   border-radius: 12px;
+  margin-top: 10px;
  }
  
 .cat-cat-see-all{
@@ -232,11 +233,16 @@
   text-decoration: none;  
 }
 .product-card{
-  background-color: #61dafb;
+  /* background-color: #61dafb;
   height: 470px;
   display: flex;
-  padding: 20px;
-  margin: 5px;
+  padding: 20px;*/
+  margin-left: 70px; 
+  grid-gap: 0.00005rem;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
 }
 .categories-details-card{
   background-color: white;
@@ -252,9 +258,17 @@
   border-radius: 10px;
   border: none;
 }
+.products .pro-see-all .see-all button{
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 10px;
+}
 .products{
   background-color: red; 
-  height: 600px;
+  height: 500px;
 }
 .pro-see-all{
   background-color: white;
@@ -307,6 +321,50 @@
   background-color: rebeccapurple;
   height: 40px;
   display: flex;
+}
+.footer .stay-connected h4{
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.footer .stay-connected h5{
+  color: white;
+  font-size: 25px;
+  margin-top: 0.5px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer .stay-connected input{
+  height: 40px;
+  width: 300px;
+  border:none;
+}
+.footer .stay-connected button{
+  height: 40px;
+  width: 303px;
+  border:none;
+  margin-top: 5px;
+}
+.footer .stay-connected h6{
+  color: white;
+  font-size: 25px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.footer .contact-us h4{
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-bottom: 40px;
+}
+.footer .contact-us p{
+  color: white;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 10px;
 }
 .privacy{
   background-color: white;
