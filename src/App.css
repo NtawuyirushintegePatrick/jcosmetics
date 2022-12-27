@@ -223,8 +223,10 @@
   border: solid #E57272 0.25; 
 }
 .categories-with-photos .categories-details-card .categorie-image img{
-  height: 5px;
-  width: 10px;
+  height: 170px;
+  width: 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /* @media (max-width :500px) {
   
@@ -279,6 +281,12 @@
 .products{
   background-color: red; 
   height: 500px;
+}
+.products .product-card .products-details-card .product-image img{
+  height: 170px;
+  width: 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .pro-see-all{
   background-color: white;

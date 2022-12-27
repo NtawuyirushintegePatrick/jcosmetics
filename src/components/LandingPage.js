@@ -1,4 +1,6 @@
 import MyImage from '../images/photo.jpg';
+import productImage from '../images/shoe.jpg'
+import productImage1 from '../images/shoe1.jpg'
 import React from "react";
 
 const LandingPage = () => {
@@ -119,25 +121,33 @@ const LandingPage = () => {
         <div className="categories-with-photos">
           <div className="categories-details-card">
             <div className="categorie-image">
-              <img src={MyImage} alt="hair"/>
+            <img src={productImage} alt="shoe"/>
             </div>
-            <div className="categorie-name">name</div>
+            <div className="categorie-name">Oral care</div>
           </div>
           <div className="categories-details-card">
-            <div className="categorie-image">Image</div>
-            <div className="categorie-name">name</div>
+            <div className="categorie-image">
+            <img src={MyImage} alt="hair"/>
+            </div>
+            <div className="categorie-name">Skin care</div>
           </div>
           <div className="categories-details-card">
-            <div className="categorie-image">Image</div>
-            <div className="categorie-name">name</div>
+            <div className="categorie-image">
+            <img src={productImage} alt="shoe"/>
+            </div>
+            <div className="categorie-name">Sun care</div>
           </div>
           <div className="categories-details-card">
-            <div className="categorie-image">Image</div>
-            <div className="categorie-name">name</div>
+            <div className="categorie-image">
+            <img src={MyImage} alt="hair"/>
+            </div>
+            <div className="categorie-name">Hair care</div>
           </div>
           <div className="categories-details-card">
-            <div className="categorie-image">Image</div>
-            <div className="categorie-name">name</div>
+            <div className="categorie-image">
+            <img src={productImage} alt="shoe"/>
+            </div>
+            <div className="categorie-name">Body care</div>
           </div>
         </div>
       </div>
@@ -156,36 +166,56 @@ const LandingPage = () => {
         </div>
         <div className="product-card">
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
-            <div className="product-info">cdxvdvdv</div>
+            <div className="product-image">
+            <img src={productImage} alt="shoe"/>
+            </div>
+            <div className="product-info">
+              <p>$100</p>
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage1} alt="food"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage} alt="shoe"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage1} alt="food"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage1} alt="food"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage} alt="shoe"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
 
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage1} alt="food"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
           <div className="products-details-card">
-            <div className="product-image">sdjifhdj</div>
+            <div className="product-image">
+            <img src={productImage} alt="shoe"/>
+            </div>
             <div className="product-info">cdvdvdv</div>
           </div>
         </div>
