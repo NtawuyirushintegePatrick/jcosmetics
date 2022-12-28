@@ -253,7 +253,7 @@
   /* background-color: green; */
   background-color: white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 50px;
+  font-size: 15px;
   height: 20px;
   margin-top: 0px;
   margin-left: 50px;
@@ -365,6 +365,14 @@
   height: 40px;
   display: flex;
 }
+.footer-privacy-managment .privacy a{
+text-decoration: none;
+color: #F60E9A;
+}
+.footer-privacy-managment .managment a{
+  text-decoration: none;
+  color: #F60E9A;
+  }
 .footer .stay-connected h4{
   color: white;
   text-decoration: underline;

@@ -253,20 +253,22 @@ const LandingPage = () => {
           <h4>Contact us</h4>
           <p>
             Jcosmetics
-            <br />
+            <br/>
             The personal care center
-            <br />
-            <br />
+            <br/>
+            <br/>
             Tel : +250786562343
-            <br />
+            <br/>
             +250786767555
           </p>
         </div>
       </div>
       <div className="footer-privacy-managment">
-        <div className="privacy">Copylight Jcosmetics Policy&Privacy</div>
+        <div className="privacy">
+          Copylight Jcosmetics < a href="#"> Policy&Privacy</a>
+          </div>
         <div className="managment">
-          Design and Content Management System by Jcosmetics
+          Design and Content Management System by <a href="#">Jcosmetics</a>
         </div>
       </div>
     </>
