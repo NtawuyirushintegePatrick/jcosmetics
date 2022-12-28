@@ -350,24 +350,24 @@
   display: flex;
 }
 .footer .stay-connected button{
-background-color: #E57272;
+background-color: #AF7B7B;
 color: white;
 border: 1px white solid;
 }
 .stay-connected{
-  background-color: #E57272;
+  background-color: #AF7B7B;
   height: 250px;
   width: 50%;
 }
 .contact-us{
   /* background-color: rgb(42, 151, 78); */
-  background-color: #E57272;
+  background-color: #AF7B7B;
   width: 50%;
   height: 250px
 }
 .footer-privacy-managment{
   background-color: rebeccapurple;
-  height: 40px;
+  height: 30px;
   display: flex;
 }
 .footer-privacy-managment .privacy a{
@@ -382,6 +382,7 @@ color: #F60E9A;
   color: white;
   text-decoration: underline;
   font-size: 30px;
+  font-style: Lemon;
   margin-top: 3px;
   margin-bottom: 10px;
 }
@@ -422,12 +423,12 @@ color: #F60E9A;
   margin-bottom: 10px;
 }
 .privacy{
-  background-color: white;
-  height: 40px;
+  background-color: #D9D9D9;
+  height: 30px;
   width: 50%;
 }
 .managment{
-  background-color: rgb(117, 59, 59);
-  height: 40px;
+  background-color: #D9D9D9;
+  height: 30px;
   width: 50%;
 }
