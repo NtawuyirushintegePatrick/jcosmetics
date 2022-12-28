@@ -3,7 +3,8 @@ import productImage from "../images/shoe.jpg";
 import productImage1 from "../images/shoe1.jpg";
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook , faInstagram , faLinkedin , faTwitter , faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { Container } from "react-bootstrap";
 
 const LandingPage = () => {
   return (
@@ -91,9 +92,9 @@ const LandingPage = () => {
           <div className="big-rectangle">
             <div className="small-rectangle">
               <p1>
-                Shop with us <br />
+                Shop with us 
                 <br />
-                from <br /> <br /> Monday to Monday
+                from <br /> Monday to Monday
                 <br />
                 <br />
                 <p2>24/24</p2>
@@ -105,7 +106,7 @@ const LandingPage = () => {
           <p>
             We are here to serve you all about <br />
             <br />
-            <p3>Cosmetics</p3> <br />
+            <p3>Cosmetics</p3>
             <br />
             Go with us
           </p>
@@ -250,6 +251,22 @@ const LandingPage = () => {
           <br/>
           <button>Subscribe</button>
           <h6>Stay connected</h6>
+          <Container>
+             <div className="singleCol social-media-icons-red d-flex justify-content-evenly">
+              <a href="https://youtube.com">
+                <FontAwesomeIcon icon={faYoutube}/>
+              </a>
+              <a href="https://instagram.com">
+                <FontAwesomeIcon icon={faInstagram}/>
+              </a>
+              <a href="https://linkedin.com">
+                <FontAwesomeIcon icon={faLinkedin}/>
+              </a>
+              <a href="https://twitter.com">
+                <FontAwesomeIcon icon={faTwitter}/>
+              </a>
+             </div>
+          </Container>
         </div>
         <div className="contact-us">
           <h4>Contact us</h4>
