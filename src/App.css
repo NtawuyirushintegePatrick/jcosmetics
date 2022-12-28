@@ -349,13 +349,19 @@
   height: 250px;
   display: flex;
 }
+.footer .stay-connected button{
+background-color: #E57272;
+color: white;
+border: 1px white solid;
+}
 .stay-connected{
-  background-color: aquamarine;
+  background-color: #E57272;
   height: 250px;
   width: 50%;
 }
 .contact-us{
-  background-color: rgb(42, 151, 78);
+  /* background-color: rgb(42, 151, 78); */
+  background-color: #E57272;
   width: 50%;
   height: 250px
 }
@@ -394,7 +400,6 @@ color: #F60E9A;
 .footer .stay-connected button{
   height: 40px;
   width: 303px;
-  border:none;
   margin-top: 5px;
 }
 .footer .stay-connected h6{
