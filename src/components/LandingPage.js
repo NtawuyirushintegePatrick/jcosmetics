@@ -2,6 +2,8 @@ import MyImage from "../images/photo.jpg";
 import productImage from "../images/shoe.jpg";
 import productImage1 from "../images/shoe1.jpg";
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook} from '@fortawesome/free-brands-svg-icons'
 
 const LandingPage = () => {
   return (
