@@ -2,8 +2,14 @@ import MyImage from "../images/photo.jpg";
 import productImage from "../images/shoe.jpg";
 import productImage1 from "../images/shoe1.jpg";
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook , faInstagram , faLinkedin , faTwitter , faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import { Container } from "react-bootstrap";
 
 const LandingPage = () => {
@@ -92,7 +98,7 @@ const LandingPage = () => {
           <div className="big-rectangle">
             <div className="small-rectangle">
               <p1>
-                Shop with us 
+                Shop with us
                 <br />
                 from <br /> Monday to Monday
                 <br />
@@ -237,7 +243,7 @@ const LandingPage = () => {
               <img src={productImage} alt="shoe" />
             </div>
             <div className="product-info">
-            <p>$100</p>
+              <p>$100</p>
               <button>shop now</button>
             </div>
           </div>
@@ -248,36 +254,36 @@ const LandingPage = () => {
           <h4>Stay informed</h4>
           <h5>Sign for new updates</h5>
           <input type="text" placeholder="Email address" />
-          <br/>
+          <br />
           <button>Subscribe</button>
           <h6>Stay connected</h6>
           <Container>
-             <div className="singleCol social-media-icons-red d-flex justify-content-evenly">
+            <div className="singleCol social-media-icons-red d-flex justify-content-evenly">
               <a href="https://youtube.com">
-                <FontAwesomeIcon icon={faYoutube}/>
+                <FontAwesomeIcon icon={faYoutube} />
               </a>
               <a href="https://instagram.com">
-                <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
               <a href="https://linkedin.com">
-                <FontAwesomeIcon icon={faLinkedin}/>
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
               <a href="https://twitter.com">
-                <FontAwesomeIcon icon={faTwitter}/>
+                <FontAwesomeIcon icon={faTwitter} />
               </a>
-             </div>
+            </div>
           </Container>
         </div>
         <div className="contact-us">
           <h4>Contact us</h4>
           <p>
             Jcosmetics
-            <br/>
+            <br />
             The personal care center
-            <br/>
-            <br/>
+            <br />
+            <br />
             Tel : +250786562343
-            <br/>
+            <br />
             +250786767555
           </p>
         </div>
@@ -285,7 +291,7 @@ const LandingPage = () => {
       <div className="footer-privacy-managment">
         <div className="privacy">
           Copylight Jcosmetics <a href="#"> Policy&Privacy</a>
-          </div>
+        </div>
         <div className="managment">
           Design and Content Management System by <a href="#">Jcosmetics</a>
         </div>
