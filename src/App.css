@@ -355,11 +355,23 @@ background-color: #AF7B7B;
 color: white;
 border: 1px white solid;
 }
+.footer .stay-connected .social-media-icons-white a{
+  color: white;
+  font-size: 2rem;
+}
 .stay-connected{
   background-color: #AF7B7B;
   height: 250px;
   width: 50%;
 }
+.singleCol{
+  max-width: 750px;
+  margin: 0 auto;
+}
+/* .social-media-icons-white a{
+  color: white;
+  font-size: 2rem;
+} */
 .contact-us{
   /* background-color: rgb(42, 151, 78); */
   background-color: #AF7B7B;

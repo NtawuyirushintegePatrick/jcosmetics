@@ -257,22 +257,22 @@ const LandingPage = () => {
           <br />
           <button>Subscribe</button>
           <h6>Stay connected</h6>
-          <Container>
-            <div className="singleCol social-media-icons-red d-flex justify-content-evenly">
-              <a href="https://youtube.com">
-                <FontAwesomeIcon icon={faYoutube} />
-              </a>
-              <a href="https://instagram.com">
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a href="https://linkedin.com">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-              <a href="https://twitter.com">
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-            </div>
-          </Container>
+          {/* <Container> */}
+          <div className="singleCol social-media-icons-white d-flex justify-content-evenly">
+            <a href="https://youtube.com">
+              <FontAwesomeIcon icon={faYoutube} />
+            </a>
+            <a href="https://instagram.com">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="https://linkedin.com">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://twitter.com">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </div>
+          {/* </Container> */}
         </div>
         <div className="contact-us">
           <h4>Contact us</h4>
