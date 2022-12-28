@@ -245,7 +245,7 @@ const LandingPage = () => {
           <h4>Stay informed</h4>
           <h5>Sign for new updates</h5>
           <input type="text" placeholder="Email address" />
-          <br />
+          <br/>
           <button>Subscribe</button>
           <h6>Stay connected</h6>
         </div>
