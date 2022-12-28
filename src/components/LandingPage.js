@@ -1,6 +1,6 @@
-import MyImage from '../images/photo.jpg';
-import productImage from '../images/shoe.jpg'
-import productImage1 from '../images/shoe1.jpg'
+import MyImage from "../images/photo.jpg";
+import productImage from "../images/shoe.jpg";
+import productImage1 from "../images/shoe1.jpg";
 import React from "react";
 
 const LandingPage = () => {
@@ -121,31 +121,31 @@ const LandingPage = () => {
         <div className="categories-with-photos">
           <div className="categories-details-card">
             <div className="categorie-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
             <div className="categorie-name">Oral care</div>
           </div>
           <div className="categories-details-card">
             <div className="categorie-image">
-            <img src={MyImage} alt="hair"/>
+              <img src={MyImage} alt="hair" />
             </div>
             <div className="categorie-name">Skin care</div>
           </div>
           <div className="categories-details-card">
             <div className="categorie-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
             <div className="categorie-name">Sun care</div>
           </div>
           <div className="categories-details-card">
             <div className="categorie-image">
-            <img src={MyImage} alt="hair"/>
+              <img src={MyImage} alt="hair" />
             </div>
             <div className="categorie-name">Hair care</div>
           </div>
           <div className="categories-details-card">
             <div className="categorie-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
             <div className="categorie-name">Body care</div>
           </div>
@@ -167,56 +167,76 @@ const LandingPage = () => {
         <div className="product-card">
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
             <div className="product-info">
-              <p>$100</p>
               <p>$100</p>
               <button>shop now</button>
             </div>
           </div>
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage1} alt="food"/>
+              <img src={productImage1} alt="food" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage1} alt="food"/>
+              <img src={productImage1} alt="food" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage1} alt="food"/>
+              <img src={productImage1} alt="food" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
 
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage1} alt="food"/>
+              <img src={productImage1} alt="food" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+              <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
           <div className="products-details-card">
             <div className="product-image">
-            <img src={productImage} alt="shoe"/>
+              <img src={productImage} alt="shoe" />
             </div>
-            <div className="product-info">cdvdvdv</div>
+            <div className="product-info">
+            <p>$100</p>
+              <button>shop now</button>
+            </div>
           </div>
         </div>
       </div>
@@ -224,21 +244,30 @@ const LandingPage = () => {
         <div className="stay-connected">
           <h4>Stay informed</h4>
           <h5>Sign for new updates</h5>
-          <input type="text" placeholder="Email address"/><br/>
+          <input type="text" placeholder="Email address" />
+          <br />
           <button>Subscribe</button>
           <h6>Stay connected</h6>
         </div>
         <div className="contact-us">
           <h4>Contact us</h4>
-          <p>Jcosmetics<br/>The personal care center<br/><br/>
-          Tel : +250786562343<br/>
-          +250786767555
+          <p>
+            Jcosmetics
+            <br />
+            The personal care center
+            <br />
+            <br />
+            Tel : +250786562343
+            <br />
+            +250786767555
           </p>
         </div>
       </div>
       <div className="footer-privacy-managment">
-        <div className="privacy">Copylight Jcosmetics  Policy&Privacy</div>
-        <div className="managment">Design and Content Management System by Jcosmetics</div>
+        <div className="privacy">Copylight Jcosmetics Policy&Privacy</div>
+        <div className="managment">
+          Design and Content Management System by Jcosmetics
+        </div>
       </div>
     </>
   );
