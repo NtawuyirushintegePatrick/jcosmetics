@@ -265,7 +265,7 @@ const LandingPage = () => {
       </div>
       <div className="footer-privacy-managment">
         <div className="privacy">
-          Copylight Jcosmetics < a href="#"> Policy&Privacy</a>
+          Copylight Jcosmetics <a href="#"> Policy&Privacy</a>
           </div>
         <div className="managment">
           Design and Content Management System by <a href="#">Jcosmetics</a>
