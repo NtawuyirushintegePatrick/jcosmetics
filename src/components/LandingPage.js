@@ -3,7 +3,7 @@ import productImage from "../images/shoe.jpg";
 import productImage1 from "../images/shoe1.jpg";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {cart} from "@fortawesome/free-solid-svg-icons"
+import ShoppingCartIcon from "react-bootstrap"
 import {
   faInstagram,
   faLinkedin,
@@ -39,12 +39,14 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="profile-menu">
-          <a href="#" class="text-blue-600 visited:text-purple-600">
-            Register
-          </a>
-          <a href="#" class="text-blue-600 visited:text-purple-600">
-            Sign in
-          </a>
+          <div className="profile-menu-link">
+            <a href="#" class="text-blue-600 visited:text-purple-600">
+              Register
+            </a>
+            <a href="#" class="text-blue-600 visited:text-purple-600">
+              Sign in
+            </a>
+          </div>
         </div>
       </div>
       <div className="Header-two">
@@ -56,7 +58,7 @@ const LandingPage = () => {
         </div>
         <div className="cart-field">
           <div className="cart-shape">
-          <i class="fas fa-shopping-cart"/>
+          <ShoppingCartIcon />
           </div>
           <div className="cart-amount">
             <h>Cart</h>

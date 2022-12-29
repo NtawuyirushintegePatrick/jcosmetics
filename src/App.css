@@ -53,17 +53,15 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .search-landingPage{
-  background-color: greenyellow;
-  /* margin-top: 10px; */
+  /* background-color: greenyellow; */
   height: 60px;
   width: 50%;
 }
 .search-landingPage input{
   margin-top: 10px;
-  /* align-items: center; */
   height: 40px;
   width: 600px;
-  border: none;
+  border: 1px solid rgb(134, 129, 129);
   border-radius: 10px;
   text-align: center;
   text-decoration: double;
@@ -77,7 +75,7 @@
   
 }
 .cart-shape{
-  background-color: white;
+  background-color: rgb(206, 180, 180);
   width: 50%;
 }
 .cart-amount{
@@ -98,7 +96,7 @@
   padding: 40px 30px 10px 20px ;
 }
 .profile-menu{
-  background-color: aquamarine;
+  background-color: aliceblue;
   border: solid 1 black;
   height: 50px;
   width: 50%;
@@ -108,9 +106,14 @@
   color: rgb(19, 18, 18);
   font-family:monospace;
   padding-right: 20px;
+  background-color:aliceblue;
+}
+.Header .profile-menu .profile-menu-link{
+  background-color: aliceblue;
+  margin-left: 30rem;
 }
 .Header-two{
-  background-color: red;
+  /* background-color: red; */
   height: 60px;
   display: flex;
 }
@@ -170,7 +173,6 @@
   width: 75%;
   background-image: url("../src/images/photo.jpg");
   background-repeat: no-repeat;
-  /* height: -500px; */
   background-position: center;
   background-size: cover;
   position: relative;
