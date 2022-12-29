@@ -357,7 +357,8 @@ border: 1px white solid;
 }
 .footer .stay-connected .social-media-icons-white a{
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-left: 100px;
 }
 .stay-connected{
   background-color: #AF7B7B;
@@ -365,13 +366,10 @@ border: 1px white solid;
   width: 50%;
 }
 .singleCol{
-  max-width: 750px;
-  margin: 0 auto;
+  max-width:700px;
+  /* background-color: green; */
+
 }
-/* .social-media-icons-white a{
-  color: white;
-  font-size: 2rem;
-} */
 .contact-us{
   /* background-color: rgb(42, 151, 78); */
   background-color: #AF7B7B;

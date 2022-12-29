@@ -2,13 +2,13 @@ import MyImage from "../images/photo.jpg";
 import productImage from "../images/shoe.jpg";
 import productImage1 from "../images/shoe1.jpg";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faInstagram,
   faLinkedin,
   faTwitter,
   faYoutube,
+  
 } from "@fortawesome/free-brands-svg-icons";
 import { Container } from "react-bootstrap";
 
@@ -55,7 +55,9 @@ const LandingPage = () => {
           <input type="text" placeholder="Search any Product" />
         </div>
         <div className="cart-field">
-          <div className="cart-shape">Cart logo</div>
+          <div className="cart-shape">
+          {/* <FontAwesomeIcon icon={fa-cart-shopping} /> */}
+          </div>
           <div className="cart-amount">
             <h>Cart</h>
             <br />
