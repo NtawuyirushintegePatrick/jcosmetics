@@ -103,11 +103,10 @@
   height: 50px;
   width: 50%;
 }
-.profile-menu a{
+.Header .profile-menu a{
   text-decoration: none;
-  color: rgb(20, 20, 20);
-  font-family:'Times New Roman', Times, serif;
-  position: relative;
+  color: rgb(19, 18, 18);
+  font-family:monospace;
   padding-right: 20px;
 }
 .Header-two{

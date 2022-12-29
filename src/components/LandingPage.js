@@ -2,15 +2,15 @@ import MyImage from "../images/photo.jpg";
 import productImage from "../images/shoe.jpg";
 import productImage1 from "../images/shoe1.jpg";
 import React from "react";
-import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {cart} from "@fortawesome/free-solid-svg-icons"
 import {
   faInstagram,
   faLinkedin,
   faTwitter,
   faYoutube,
-  
 } from "@fortawesome/free-brands-svg-icons";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 
 const LandingPage = () => {
   return (
@@ -56,7 +56,7 @@ const LandingPage = () => {
         </div>
         <div className="cart-field">
           <div className="cart-shape">
-          {/* <FontAwesomeIcon icon={fa-cart-shopping} /> */}
+          <i class="fas fa-shopping-cart"/>
           </div>
           <div className="cart-amount">
             <h>Cart</h>
